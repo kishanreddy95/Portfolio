@@ -7,9 +7,8 @@ body {
 
 #main {
     background-color: rgb(42, 226, 180);
-    width: 80%;
-    margin: 30px auto;
-    box-shadow: 0 0 10px 2px #999;
+    width: 80vh;
+    height: 100vh;
 }
 
 /* Navigation styles */
@@ -17,6 +16,9 @@ body {
 #head {
     overflow: hidden;
     clear: both;
+    position: fixed;
+    width: 100%;
+    top: 0;
     background-color: rgb(42, 226, 180);
     box-shadow: 0 0 5px 0 rgb(77, 145, 128);
     border-radius: 2px;
@@ -46,16 +48,17 @@ body {
 
 /* Welcome-Section */
 
-#welcome-section {
+#about {
     overflow: hidden;
     clear: both;
-
+    margin-top: 10%;
 }
 
 #welcome-section .my-info {
     float: right;  
     width: 40%;
     padding: 2%;
+    margin-right: 10%;
 }
 
 #welcome-section .my-info .info {
@@ -77,6 +80,36 @@ body {
     height: 300px;
     border: black 2px solid;
     border-radius: 5px;
+    box-shadow: 0 0 1px 1px rgb(75, 110, 101);
 }
 
+/* Projects */
+ #projects {
+     overflow: hidden;
+     clear: both;
+     margin-top: 2%;
+ }
 
+ #projects .first {
+    float: left;
+    width: 30%;
+   margin-left: 3%; 
+ }
+
+ #projects .second {
+    float: left;
+    width: 30%;
+    margin-left: 3%
+}
+
+#projects .third {
+    float: left;
+    width: 30%;
+    margin-left: 3%;
+}
+
+#projects .project-tile {
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 0 5px 2px rgb(153, 194, 194);
+}
