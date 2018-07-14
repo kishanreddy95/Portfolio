@@ -77,7 +77,7 @@ body {
     padding: 2%;
 }
 
-#about .my-profile img {
+#about .my-profile .profile {
     width: 290px;
     height: 300px;
     border: black 2px solid;
@@ -86,6 +86,7 @@ body {
 }
 
 /* Projects */
+
  #projects {
      overflow: hidden;
      clear: both;
